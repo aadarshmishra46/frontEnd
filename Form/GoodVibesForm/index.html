@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurvayForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>freeCodeCamp Survey Form</h1>
+    <h2  style="font-style: italic;">Thank you for taking the time to help us improve the platform </h2>
+</header>
+<fieldset>
+    <form action="">
+    <label for="name">Name</label>
+    <br>
+    <input type="text" name="name" id="input" placeholder="Enter your name">
+    <br>
+    <br>
+    <label id="lab" for="email">Email</label>
+    <br>
+    <input type="email" name="email" id="input" placeholder="Enter your Email">
+    <br><br>
+    <label id="lab" for="age">Age(optional)</label>
+    <br>
+    <input type="number" name="age" id="input" placeholder="Age"><br><br>
+    <label id="lab" for="role">Which option best describes your current role?</label>
+    <br>
+    <select name="role" id="input" >
+        <option value="" disabled selected hidden>Select current Role</option>
+        <option value="student">Student</option>
+        <option value="ftj">Full-time Job</option>
+        <option value="ftl">Full-time Learner</option>
+        <option value="ftl">Full-time Learner</option>
+        <option value="none">Prefer Not to Say</option>
+        <option value="other">Other</option> 
+    </select><br><br>
+    <label id="lab" for="recommand">Would you recommend freeCodeCamp to a friend?</label>
+    <br>
+    <input type="radio" name=""  value="definitely">
+    <label for="">Definitely</label> <br>
+    <input type="radio" name=""  value="may be">
+    <label for="">Maybe</label> <br>
+    <input type="radio" name=""  value="notSure">
+    <label for="">Not Sure</label><br><br>
+    <label id="lab" for="fav">What is your favorite feature of freeCodeCamp?</label>
+    <br>
+    <select name="role" id="input" >
+        <option value="" disabled selected hidden>Select an option</option>
+        <option value="student">challenges</option>
+        <option value="ftj">Projects</option>
+        <option value="ftl">Community</option>
+        <option value="ftl">Open source</option>
+    </select><br><br>
+    <label id="lab" for="improve">What would you like to see improved? (Check all that apply)</label><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Front-end Projects</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Back-end Projects</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3">Data Visualization</label> <br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">Challenges</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2">Open Source Community</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3">Gitter help rooms</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Videos</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> City Meetups</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Wiki</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">Forum</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Additional Courses</label><br>
+    <br>
+    <label for="">Any comments or suggestions?</label><br>
+    <textarea name="" id="" cols="60" rows="10" placeholder="Enter your comment here.."></textarea>
+    <br><br>
+    <input type="submit" value="Submit" id="sub">
+</form>
+
+</fieldset>
+
+</body>
+</html>

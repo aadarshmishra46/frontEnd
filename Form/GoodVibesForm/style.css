@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  body{
+      color: white;
+     font-size: 25px;
+  }
+header{
+    margin-top: 50px;
+    text-align: center;
+}
+fieldset{
+    margin-top: 20px;
+ margin-left: 150px;
+ margin-right: 150px;
+background-color: rgb(26, 26, 29);
+opacity: 0.8;
+color: white;
+
+}
+
+form{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+   
+}
+textarea {
+    min-height: 120px;
+    width: 90%;
+    resize: vertical;
+  }
+ #sub{
+    display: block;
+  width: 90%;
+  padding: 0.75rem;
+  background:green;
+  color: inherit;
+  border-radius: 7px;
+  cursor: pointer;
+ }
+ #input{
+     width: 90%;
+     height: 40px;
+     border-radius: 7px;
+ }
