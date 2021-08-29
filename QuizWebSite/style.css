@@ -117,3 +117,13 @@ color: inherit;
 border-radius: 7px;
 cursor: pointer;
 }
+.content{
+  font-size: 30px;
+  text-align: center;
+  height: 120px;
+  color:rgb(38, 0, 255);
+  background-color: black;
+}
+footer{
+  background-color: blanchedalmond;
+}
