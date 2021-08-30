@@ -120,9 +120,11 @@ cursor: pointer;
 .content{
   font-size: 30px;
   text-align: center;
-  height: 120px;
-  color:rgb(38, 0, 255);
-  background-color: black;
+  height: 140px;
+  color:rgb(30, 255, 0);
+  background-color: gray;
+  margin-left: 400px;
+  margin-right: 400px;
 }
 footer{
   background-color: blanchedalmond;
